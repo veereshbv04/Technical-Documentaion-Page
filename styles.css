@@ -36,7 +36,7 @@ nav {
     border-color: rgb(128, 126, 126);
 }
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 845px) {
     #navbar {
         width: 100%;
         margin: 0;
@@ -89,7 +89,7 @@ section {
 }
 
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 845px) {
     #main-doc {
         position: relative;
         margin-left: 0px;
@@ -130,4 +130,9 @@ code{
     margin: 1rem;
     display: block;
     white-space: pre-line;
+}
+
+#last-link{
+    padding-bottom: 5rem;
+    
 }
