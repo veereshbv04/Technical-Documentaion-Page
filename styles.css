@@ -4,7 +4,26 @@
 html, body {
     min-width: 290px;
     color: #4d4e53;
-    background-color: #37ec30;
+    background-color: #e7dede;
     font-family: 'Lora', serif;
     line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    /* margin: 10px; */
+    font-size: 1.8em;
+    background-color: rgba(179, 179, 179, 0.568);
+    padding: 1rem;
+}
+
+nav{
+    background-color: rgb(221, 214, 212);
+    top: 0; 
+    left: 0;
+}
+
+ul{
+    list-style: none;
 }
