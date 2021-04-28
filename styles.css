@@ -39,6 +39,8 @@ nav{
     display: block;
    padding: 2rem;
    height: 88%;
+   overflow-y: auto;
+   overflow-x: hidden;
 }
 
 #navbar li{
@@ -60,4 +62,9 @@ section article{
     color: rgb(123, 127, 128);
     margin: 12px;
     
+}
+
+a{
+    text-decoration: none;
+    color: rgb(71, 69, 67);
 }
