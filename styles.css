@@ -28,11 +28,12 @@ nav {
     background-color: white;
     top: 0px;
     left: 0px;
+    margin-bottom: 2rem;
     width: 300px;
     height: 100%;
     min-width: 290px;
     border-right: solid;
-    border-color: rgb(151, 148, 148);
+    border-color: rgb(128, 126, 126);
 }
 
 @media only screen and (max-width: 815px) {
@@ -43,10 +44,13 @@ nav {
         max-height: 275px;
         position: absolute;
         top: 0;
-        border-bottom: 2px solid;
+        border: none;
+        /* border-bottom : 2px solid; */
         z-index: 1;
     }
-
+    body{
+        font-size: 1rem;
+    }
    
 }
 
@@ -61,7 +65,7 @@ nav {
 
 #navbar li {
     color: #4d4e53;
-    ;
+    
     border-top: 1px solid;
     border-color: rgb(151, 148, 148);
     /* border-width: 1rem; */
@@ -77,16 +81,6 @@ section {
 }
 
 
-
-@media only screen and (max-width: 815px) {
-    #main-doc {
-        position: relative;
-        margin-left: 0px;
-        margin-top: 270px;
-
-    }
-}
-
 #main-doc {
     position: absolute;
     margin-left: 310px;
@@ -94,21 +88,22 @@ section {
     margin-bottom: 110px;
 }
 
+
+@media only screen and (max-width: 815px) {
+    #main-doc {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 370px;
+
+    }
+}
+
+
 main{
     display: block;
 }
 
-@media only screen and (max-width: 815px) {
-    #main-doc {
-        position: absolute;
-        margin-left: 310px;
-        padding: 20px;
-        margin-bottom: 110px;
-        align-items: left;
-    }
 
-
-}
 
 #main-doc header {
     margin: 0px;
