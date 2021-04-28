@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
+
+
+html, body {
+    min-width: 290px;
+    color: #4d4e53;
+    background-color: #37ec30;
+    font-family: 'Lora', serif;
+    line-height: 1.5;
+}
