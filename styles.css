@@ -131,6 +131,20 @@ code {
     margin: 1rem;
     display: block;
     white-space: pre-line;
+    
+    /* overflow-y: scroll; */
+}
+iframe{
+    background-color: rgb(211, 211, 218);
+    text-align: left;
+    color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    display: block;
+    white-space: pre-line;
+     
+
 }
 
 #last-link {
